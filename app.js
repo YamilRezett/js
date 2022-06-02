@@ -10,8 +10,8 @@ else {
 let contraseña = prompt("Ingresa contraseña");
 
 if(contraseña == " ") {
-    alert("Contraseña Correcta");
+    alert("Contraseña Incorrecta");
 }
 else {
-    alert("Contraseña Incorrecta");
+    alert("Contraseña Correcta");
 }
