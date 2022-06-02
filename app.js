@@ -9,11 +9,11 @@ else {
 
 let contraseña = prompt("Ingresa contraseña");
 
-if(contraseña == " ") {
-    alert("Contraseña Incorrecta");
+if(contraseña == "js") {
+    alert("Contraseña correcta");
 }
 else {
-    alert("Contraseña Correcta");
+    alert("Contraseña Incorrecta");
 }
 
 let operacion = Number(prompt("Que operacion desea realizar? \n1 Suma \n2 Resta \n3 Multiplicación \n4 División \n5 Salir"))
@@ -38,3 +38,13 @@ while (operacion != 5) {
     operacion = Number(prompt("Que operacion desea realizar? \n1 Suma \n2 Resta \n3 Multiplicación \n4 División \n5 Salir"))
 
 }
+
+const suma = (a,b) => a + b
+const resta = (a,b) => a - b
+
+const iva = valor => valor * 0.21
+let precioProducto = 500
+let descuento = 50
+
+let nuevoPrecio = resta(suma(precioProducto, iva(precioProducto)), descuento)
+console.log(nuevoPrecio)

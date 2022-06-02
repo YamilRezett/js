@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(113, 116, 119);
+    margin-top: 20%;
+        }
+h1{
+    color: aliceblue;
+    font-size: xx-large;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
